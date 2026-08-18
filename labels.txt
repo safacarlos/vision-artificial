@@ -1,0 +1,3 @@
+0 papel y carton
+1 plastico
+2 metal
