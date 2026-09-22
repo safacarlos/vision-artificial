@@ -12,8 +12,6 @@ DIR_ACTUAL = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(DIR_ACTUAL, "vww_96_grayscale_quantized.tflite")
 LABELS_PATH = os.path.join(DIR_ACTUAL, "labels.txt")
 
-print("HOLA")
-
 if not os.path.exists(MODEL_PATH):
     print(f"[ERROR] No se encuentra el archivo .tflite en: {MODEL_PATH}")
     sys.exit()
